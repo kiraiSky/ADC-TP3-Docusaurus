@@ -83,6 +83,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {to: '/pagina', label: 'pagina', position: 'left'},
         ],
       },
       footer: {

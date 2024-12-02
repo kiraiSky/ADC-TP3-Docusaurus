@@ -16,6 +16,9 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/">
             Explore os Benefícios 🚀
           </Link>
+          <Link className="button button--secondary button--lg" to="/pagina">
+          DUMMY 🚀
+          </Link>
         </div>
       </div>
     </header>
