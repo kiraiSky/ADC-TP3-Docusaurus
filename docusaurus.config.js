@@ -85,6 +85,7 @@ const config = {
           },
           {to: '/pagina', label: 'pagina', position: 'left'},
           {to: '/pagina', label: 'pagina', position: 'left'},
+          {to: '/VendaSoftware', label: 'Software', position: 'left'}
         ],
       },
       footer: {
