@@ -1,7 +1,7 @@
-# Software
+# Biblioteca Pro Max™
 
-## Venda aqui
+## O que é?
 
-## Compre aqui
+## Como funciona?
 
-## Trocas e Devoluções
+## Quanto custa?
