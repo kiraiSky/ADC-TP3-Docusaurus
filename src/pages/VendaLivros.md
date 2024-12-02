@@ -10,7 +10,15 @@ Bem-vindo à nossa seção de vendas de livros! Aqui você encontra as melhores 
 ## Livros em Destaque
 
 - **A Montanha Mágica** - Thomas Mann
+
+![A Montanha Mágica Image](/img/AMontanhaMágica.jpg)
+
+
 - **1984** - George Orwell
+
+![1984 Image](/img/1984.jpg)
+
+
 - **Dom Quixote** - Miguel de Cervantes
 
 ![DomQuixote Image](/img/DomQuixote.jpg)
