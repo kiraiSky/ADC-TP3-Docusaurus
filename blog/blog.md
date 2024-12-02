@@ -29,4 +29,3 @@ limit: 5
 
 Clique no botão abaixo para explorar todas as postagens do nosso blog.
 
-[Ver Todos os Posts](../blog)
