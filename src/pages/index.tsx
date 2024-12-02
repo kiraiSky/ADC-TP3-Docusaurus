@@ -13,7 +13,7 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/membership">
+          <Link className="button button--secondary button--lg" to="/">
             Explore os Benefícios 🚀
           </Link>
         </div>
@@ -69,7 +69,7 @@ export default function Home(): JSX.Element {
               Descubra um mundo de inovação e aprendizado. Torne-se membro e aproveite todas as vantagens que a
               Biblioteca PRO MAX tem a oferecer.
             </p>
-            <Link className="button button--primary button--lg" to="/docs/membership">
+            <Link className="button button--primary button--lg" to="/">
               Seja Membro PRO MAX
             </Link>
           </div>
