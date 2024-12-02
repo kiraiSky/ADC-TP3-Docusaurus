@@ -14,12 +14,12 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurus-ghpages/',
+  baseUrl: '/ADC-TP3-Docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'masaleiro', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-ghpages', // Usually your repo name.
+  projectName: 'ADC-TP3-Docusaurus', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Biblioteca Promax',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
