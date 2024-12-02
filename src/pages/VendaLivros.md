@@ -13,6 +13,8 @@ Bem-vindo à nossa seção de vendas de livros! Aqui você encontra as melhores 
 - **1984** - George Orwell
 - **Dom Quixote** - Miguel de Cervantes
 
+![DomQuixote Image](/img/DomQuixote.jpg)
+
 ## Coleções Populares
 
 ### Coleção Harry Potter
@@ -31,3 +33,4 @@ Bem-vindo à nossa seção de vendas de livros! Aqui você encontra as melhores 
 
 1. Escolha o livro ou coleção desejada.
 2. Entre em contato pelo [muncaciua54@gmail.com] para mais informações.
+3. Podes comprar os livros no site da Amazon: [Amazon](https://www.amazon.com/books-used-books-textbooks/b?node=283155)
