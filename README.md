@@ -1,5 +1,6 @@
 # Docusaurus on Github Pages
 
+https://kiraisky.github.io/ADC-TP3-Docusaurus/
 This is a demo repo to allow for a fast setup of Docusaurus on Github pages
 
 # Instructions
