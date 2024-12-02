@@ -35,3 +35,10 @@ Another alternative is using [Docs-to-pdf](https://github.com/jean-humann/docs-t
 ```
 npx docs-to-pdf --initialDocURLs="https://masaleiro.github.io/docusaurus-ghpages/docs/intro" --contentSelector="article" --paginationSelector="a.pagination-nav__link.pagination-nav__link--next" --excludeSelectors=".margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page" --coverImage="https://docusaurus.io/img/docusaurus.png" --coverTitle="Docusaurus v2" --pdfMargin="40,60,70,80"
 ```
+
+## O que cada um fará
+
+* Hanna: Main + About section
+* João: Resenha de livros
+* Paulo: Vender Livro
+* Adriano: Mostra os livros
