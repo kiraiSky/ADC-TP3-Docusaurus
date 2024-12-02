@@ -40,5 +40,5 @@ npx docs-to-pdf --initialDocURLs="https://masaleiro.github.io/docusaurus-ghpages
 
 * Hanna: Main + About section
 * João: Resenha de livros
-* Paulo: Vender Livro
+* Paulo: Vender Software
 * Adriano: Mostra os livros
