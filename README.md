@@ -22,6 +22,17 @@ There are other changes you need to do:
     - Branch
         - gh-pages (on the dropdown)
 
+
+# INSTALAÇÃO LOCAL
+
+run: 
+´´´ bash
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+npm install -g @docusaurus/core
+
+´´´
+
 # Generate a PDF from the Docs section
 
 You can generate a PDF from the docs section of your Docusaurus website. Just run the following command after replacing the URL with your own:
