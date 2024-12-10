@@ -25,13 +25,15 @@ There are other changes you need to do:
 
 # INSTALAÇÃO LOCAL
 
-run: 
-´´´ bash
+Primeiro, é necessário ter o node instalado, para correr os comandos seguintes:
 
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-npm install -g @docusaurus/core
-
+´´´ 
+npm install docusaurus@latest 
+npm run start
 ´´´
+
+
+Depois deve fechar e abrir o VS code, abrir um novo terminal, e correr o comando  ´´´ npm run start ´´´
 
 # Generate a PDF from the Docs section
 

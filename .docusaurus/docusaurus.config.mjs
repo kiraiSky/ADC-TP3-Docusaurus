@@ -27,7 +27,11 @@ export default {
       "classic",
       {
         "docs": {
+<<<<<<< HEAD
           "sidebarPath": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\adc\\ADC-TP3-Docusaurus\\sidebars.js",
+=======
+          "sidebarPath": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\sidebars.js",
+>>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,7 +39,11 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
+<<<<<<< HEAD
           "customCss": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\adc\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
+=======
+          "customCss": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
+>>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
         }
       }
     ]
@@ -71,8 +79,13 @@ export default {
           "position": "left"
         },
         {
+<<<<<<< HEAD
           "to": "/vendalivros",
           "label": "vendalivros",
+=======
+          "to": "/pagina",
+          "label": "pagina",
+>>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
           "position": "left"
         },
         {
