@@ -25,9 +25,11 @@ There are other changes you need to do:
 
 # INSTALAÇÃO LOCAL
 
-run: 
+Primeiro, é necessário ter o node instalado, para correr os comandos seguintes:
+
 ´´´ 
 npm install docusaurus@latest 
+npm run start
 ´´´
 
 
