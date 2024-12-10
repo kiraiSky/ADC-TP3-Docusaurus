@@ -2,20 +2,24 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Blog",
+      "permalink": "/ADC-TP3-Docusaurus/blog/blog"
+    },
+    {
       "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "permalink": "/ADC-TP3-Docusaurus/blog/welcome"
     },
     {
       "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post"
+      "permalink": "/ADC-TP3-Docusaurus/blog/mdx-blog-post"
     },
     {
       "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post"
+      "permalink": "/ADC-TP3-Docusaurus/blog/long-blog-post"
     },
     {
       "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
+      "permalink": "/ADC-TP3-Docusaurus/blog/first-blog-post"
     }
   ]
 }

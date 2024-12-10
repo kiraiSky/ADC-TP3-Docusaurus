@@ -1,9 +1,8 @@
 {
   "type": "mdx",
-  "permalink": "/markdown-page",
+  "permalink": "/ADC-TP3-Docusaurus/markdown-page",
   "source": "@site/src/pages/markdown-page.md",
   "title": "Markdown page example",
-  "description": "You don't need React to write simple standalone pages.",
   "frontMatter": {
     "title": "Markdown page example"
   }

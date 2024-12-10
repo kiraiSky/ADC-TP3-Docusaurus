@@ -9,15 +9,15 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs",
-          "tagsPath": "/docs/tags",
+          "path": "/ADC-TP3-Docusaurus/docs",
+          "tagsPath": "/ADC-TP3-Docusaurus/docs/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/masaleiro/Code/UAlg/docusaurus-ghpages/sidebars.js",
-          "contentPath": "/home/masaleiro/Code/UAlg/docusaurus-ghpages/docs",
-          "contentPathLocalized": "/home/masaleiro/Code/UAlg/docusaurus-ghpages/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\sidebars.js",
+          "contentPath": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\docs",
+          "contentPathLocalized": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -27,7 +27,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
+              "permalink": "/ADC-TP3-Docusaurus/docs/intro",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
@@ -39,7 +39,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "permalink": "/ADC-TP3-Docusaurus/docs/category/tutorial---basics"
               }
             },
             {
@@ -50,7 +50,7 @@
               "source": "@site/docs/tutorial-basics/congratulations.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/congratulations",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
               "tags": [],
@@ -62,11 +62,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
                 "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "permalink": "/ADC-TP3-Docusaurus/docs/category/tutorial---extras"
               }
             },
             {
@@ -77,7 +77,7 @@
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-blog-post",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
@@ -89,11 +89,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/markdown-features"
               }
             },
             {
@@ -104,7 +104,7 @@
               "source": "@site/docs/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-document",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
               "tags": [],
@@ -116,11 +116,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-blog-post"
               }
             },
             {
@@ -131,7 +131,7 @@
               "source": "@site/docs/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-page",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
               "tags": [],
@@ -143,11 +143,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "permalink": "/ADC-TP3-Docusaurus/docs/category/tutorial---basics"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-document"
               }
             },
             {
@@ -158,7 +158,7 @@
               "source": "@site/docs/tutorial-basics/deploy-your-site.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/deploy-your-site",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
@@ -170,11 +170,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/congratulations"
               }
             },
             {
@@ -185,7 +185,7 @@
               "source": "@site/docs/tutorial-basics/markdown-features.mdx",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/markdown-features",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
@@ -197,11 +197,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-basics/deploy-your-site"
               }
             },
             {
@@ -212,7 +212,7 @@
               "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-extras/manage-docs-versions",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
@@ -224,11 +224,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "permalink": "/ADC-TP3-Docusaurus/docs/category/tutorial---extras"
               },
               "next": {
                 "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-extras/translate-your-site"
               }
             },
             {
@@ -239,7 +239,7 @@
               "source": "@site/docs/tutorial-extras/translate-your-site.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
+              "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-extras/translate-your-site",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
@@ -251,7 +251,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/ADC-TP3-Docusaurus/docs/tutorial-extras/manage-docs-versions"
               }
             }
           ],
@@ -297,7 +297,7 @@
                   "type": "generated-index",
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/tutorial---basics",
-                  "permalink": "/docs/category/tutorial---basics"
+                  "permalink": "/ADC-TP3-Docusaurus/docs/category/tutorial---basics"
                 }
               },
               {
@@ -318,7 +318,7 @@
                 "link": {
                   "type": "generated-index",
                   "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/category/tutorial---extras"
+                  "permalink": "/ADC-TP3-Docusaurus/docs/category/tutorial---extras"
                 }
               }
             ]
@@ -332,9 +332,34 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "/blog",
+          "metadata": {
+            "permalink": "/ADC-TP3-Docusaurus/blog/blog",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/blog.md",
+            "source": "@site/blog/blog.md",
+            "title": "Blog",
+            "description": "Confira os posts mais recentes do nosso blog",
+            "date": "2024-12-02T16:34:28.000Z",
+            "formattedDate": "December 2, 2024",
+            "tags": [],
+            "readingTime": 0.325,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "title": "Blog",
+              "description": "Confira os posts mais recentes do nosso blog"
+            },
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/ADC-TP3-Docusaurus/blog/welcome"
+            }
+          },
+          "content": "Bem-vindo ao nosso blog! Explore os posts mais recentes e fique atualizado.\r\n\r\n---\r\n\r\n## Últimos Posts\r\n\r\n:::caution\r\nCertifique-se de ter os posts configurados na pasta `blog` do seu projeto Docusaurus para que essa página exiba corretamente os links.\r\n:::\r\n\r\n### Postagens Recentes:\r\n\r\n:::blog\r\n---\r\nlimit: 5\r\n---\r\n:::\r\n\r\n---\r\n\r\n## 📚 Arquivo Completo\r\n\r\nClique no botão abaixo para explorar todas as postagens do nosso blog."
+        },
+        {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/ADC-TP3-Docusaurus/blog/welcome",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
@@ -344,15 +369,15 @@
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.405,
@@ -386,17 +411,21 @@
                 "docusaurus"
               ]
             },
+            "prevItem": {
+              "title": "Blog",
+              "permalink": "/ADC-TP3-Docusaurus/blog/blog"
+            },
             "nextItem": {
               "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
+              "permalink": "/ADC-TP3-Docusaurus/blog/mdx-blog-post"
             }
           },
-          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
         },
         {
           "id": "mdx-blog-post",
           "metadata": {
-            "permalink": "/blog/mdx-blog-post",
+            "permalink": "/ADC-TP3-Docusaurus/blog/mdx-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
@@ -406,7 +435,7 @@
             "tags": [
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.175,
@@ -432,19 +461,19 @@
             },
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "permalink": "/ADC-TP3-Docusaurus/blog/welcome"
             },
             "nextItem": {
               "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
+              "permalink": "/ADC-TP3-Docusaurus/blog/long-blog-post"
             }
           },
-          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
         },
         {
           "id": "long-blog-post",
           "metadata": {
-            "permalink": "/blog/long-blog-post",
+            "permalink": "/ADC-TP3-Docusaurus/blog/long-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
@@ -454,11 +483,11 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/docusaurus"
               }
             ],
             "readingTime": 2.05,
@@ -483,19 +512,19 @@
             },
             "prevItem": {
               "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
+              "permalink": "/ADC-TP3-Docusaurus/blog/mdx-blog-post"
             },
             "nextItem": {
               "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
+              "permalink": "/ADC-TP3-Docusaurus/blog/first-blog-post"
             }
           },
-          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+          "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
         },
         {
           "id": "first-blog-post",
           "metadata": {
-            "permalink": "/blog/first-blog-post",
+            "permalink": "/ADC-TP3-Docusaurus/blog/first-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
@@ -505,11 +534,11 @@
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.12,
@@ -540,7 +569,7 @@
             },
             "prevItem": {
               "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
+              "permalink": "/ADC-TP3-Docusaurus/blog/long-blog-post"
             }
           },
           "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -549,36 +578,37 @@
       "blogListPaginated": [
         {
           "items": [
+            "/blog",
             "welcome",
             "mdx-blog-post",
             "long-blog-post",
             "first-blog-post"
           ],
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/ADC-TP3-Docusaurus/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 5,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
-        "/blog/tags/facebook": {
+        "/ADC-TP3-Docusaurus/blog/tags/facebook": {
           "label": "facebook",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook",
+          "permalink": "/ADC-TP3-Docusaurus/blog/tags/facebook",
           "pages": [
             {
               "items": [
                 "welcome"
               ],
               "metadata": {
-                "permalink": "/blog/tags/facebook",
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/facebook",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -589,13 +619,13 @@
             }
           ]
         },
-        "/blog/tags/hello": {
+        "/ADC-TP3-Docusaurus/blog/tags/hello": {
           "label": "hello",
           "items": [
             "welcome",
             "long-blog-post"
           ],
-          "permalink": "/blog/tags/hello",
+          "permalink": "/ADC-TP3-Docusaurus/blog/tags/hello",
           "pages": [
             {
               "items": [
@@ -603,7 +633,7 @@
                 "long-blog-post"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hello",
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/hello",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -614,7 +644,7 @@
             }
           ]
         },
-        "/blog/tags/docusaurus": {
+        "/ADC-TP3-Docusaurus/blog/tags/docusaurus": {
           "label": "docusaurus",
           "items": [
             "welcome",
@@ -622,7 +652,7 @@
             "long-blog-post",
             "first-blog-post"
           ],
-          "permalink": "/blog/tags/docusaurus",
+          "permalink": "/ADC-TP3-Docusaurus/blog/tags/docusaurus",
           "pages": [
             {
               "items": [
@@ -632,7 +662,7 @@
                 "first-blog-post"
               ],
               "metadata": {
-                "permalink": "/blog/tags/docusaurus",
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/docusaurus",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -643,19 +673,19 @@
             }
           ]
         },
-        "/blog/tags/hola": {
+        "/ADC-TP3-Docusaurus/blog/tags/hola": {
           "label": "hola",
           "items": [
             "first-blog-post"
           ],
-          "permalink": "/blog/tags/hola",
+          "permalink": "/ADC-TP3-Docusaurus/blog/tags/hola",
           "pages": [
             {
               "items": [
                 "first-blog-post"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hola",
+                "permalink": "/ADC-TP3-Docusaurus/blog/tags/hola",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -667,25 +697,50 @@
           ]
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/ADC-TP3-Docusaurus/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/ADC-TP3-Docusaurus/",
         "source": "@site/src/pages/index.tsx"
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
+        "permalink": "/ADC-TP3-Docusaurus/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
         "frontMatter": {
           "title": "Markdown page example"
         }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/ADC-TP3-Docusaurus/pagina",
+        "source": "@site/src/pages/pagina.md",
+        "description": "DUMMY TEXT",
+        "frontMatter": {}
+      },
+      {
+        "type": "mdx",
+        "permalink": "/ADC-TP3-Docusaurus/VendaLivros",
+        "source": "@site/src/pages/VendaLivros.md",
+        "title": "Livros e Coleções Populares",
+        "description": "Descubra os livros mais vendidos e as coleções populares do momento!",
+        "frontMatter": {
+          "title": "Livros e Coleções Populares",
+          "description": "Descubra os livros mais vendidos e as coleções populares do momento!"
+        }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/ADC-TP3-Docusaurus/VendaSoftware",
+        "source": "@site/src/pages/VendaSoftware.md",
+        "title": "Biblioteca Pro Max™",
+        "description": "O que é?",
+        "frontMatter": {}
       }
     ]
   },

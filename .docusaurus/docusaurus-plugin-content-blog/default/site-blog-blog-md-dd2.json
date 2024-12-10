@@ -1,0 +1,21 @@
+{
+  "permalink": "/ADC-TP3-Docusaurus/blog/blog",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/blog.md",
+  "source": "@site/blog/blog.md",
+  "title": "Blog",
+  "description": "Confira os posts mais recentes do nosso blog",
+  "date": "2024-12-02T16:34:28.000Z",
+  "formattedDate": "December 2, 2024",
+  "tags": [],
+  "readingTime": 0.325,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "title": "Blog",
+    "description": "Confira os posts mais recentes do nosso blog"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/ADC-TP3-Docusaurus/blog/welcome"
+  }
+}
