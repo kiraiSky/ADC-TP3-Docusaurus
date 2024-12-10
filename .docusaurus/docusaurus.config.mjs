@@ -4,13 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
+  "title": "My Test Site",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "url": "https://github.com",
+  "baseUrl": "/ADC-TP3-Docusaurus/",
+  "organizationName": "masaleiro",
+  "projectName": "ADC-TP3-Docusaurus",
+  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/masaleiro/Code/UAlg/docusaurus-ghpages/sidebars.js",
+          "sidebarPath": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\adc\\ADC-TP3-Docusaurus\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/masaleiro/Code/UAlg/docusaurus-ghpages/src/css/custom.css"
+          "customCss": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\adc\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
         }
       }
     ]
@@ -42,10 +43,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Biblioteca Promax",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.jpg"
+        "src": "img/logo.svg"
       },
       "items": [
         {
@@ -63,6 +64,21 @@ export default {
           "href": "https://github.com/facebook/docusaurus",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "to": "/pagina",
+          "label": "pagina",
+          "position": "left"
+        },
+        {
+          "to": "/vendalivros",
+          "label": "vendalivros",
+          "position": "left"
+        },
+        {
+          "to": "/VendaSoftware",
+          "label": "Software",
+          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -110,7 +126,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

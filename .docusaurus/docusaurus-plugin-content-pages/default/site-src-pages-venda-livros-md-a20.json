@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/ADC-TP3-Docusaurus/VendaLivros",
+  "source": "@site/src/pages/VendaLivros.md",
+  "title": "Livros e Coleções Populares",
+  "description": "Descubra os livros mais vendidos e as coleções populares do momento!",
+  "frontMatter": {
+    "title": "Livros e Coleções Populares",
+    "description": "Descubra os livros mais vendidos e as coleções populares do momento!"
+  }
+}

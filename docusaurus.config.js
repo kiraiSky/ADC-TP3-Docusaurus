@@ -84,7 +84,7 @@ const config = {
             position: 'right',
           },
           {to: '/pagina', label: 'pagina', position: 'left'},
-          {to: '/pagina', label: 'pagina', position: 'left'},
+          {to: '/vendalivros', label: 'vendalivros', position: 'left'},
           {to: '/VendaSoftware', label: 'Software', position: 'left'}
         ],
       },

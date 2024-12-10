@@ -17,7 +17,7 @@ function HomepageHeader() {
             Explore os Benefícios 🚀
           </Link>
           <Link className="button button--secondary button--lg" to="/pagina">
-          DUMMY 🚀
+          DUMMggerd 🚀
           </Link>
         </div>
       </div>
