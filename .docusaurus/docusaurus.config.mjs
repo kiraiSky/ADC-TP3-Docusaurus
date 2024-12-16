@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Test Site",
+  "title": "Biblioteca pro max",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://github.com",
@@ -43,10 +43,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Biblioteca Promax",
+      "title": "Biblioteca Pro max",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/LOGO.png"
       },
       "items": [
         {
