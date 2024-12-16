@@ -1,51 +1,51 @@
 {
-  "/ADC-TP3-Docusaurus/__docusaurus/debug-a34": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug-fbf": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     }
   },
-  "/ADC-TP3-Docusaurus/__docusaurus/debug/config-c6d": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug/config-849": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     }
   },
-  "/ADC-TP3-Docusaurus/__docusaurus/debug/content-8fc": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug/content-120": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     },
     "allContent": "allContent---adc-tp-3-docusaurus-docusaurus-debug-content-246-58e"
   },
-  "/ADC-TP3-Docusaurus/__docusaurus/debug/globalData-bca": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug/globalData-b4d": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     }
   },
-  "/ADC-TP3-Docusaurus/__docusaurus/debug/metadata-07e": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug/metadata-202": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     }
   },
-  "/ADC-TP3-Docusaurus/__docusaurus/debug/registry-18b": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug/registry-c54": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     }
   },
-  "/ADC-TP3-Docusaurus/__docusaurus/debug/routes-e5f": {
+  "/ADC-TP3-Docusaurus/__docusaurus/debug/routes-89e": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-357-966"
+      "plugin": "plugin---adc-tp-3-docusaurus-docusaurus-debug-76-e-4a7"
     }
   },
-  "/ADC-TP3-Docusaurus/blog-af8": {
+  "/ADC-TP3-Docusaurus/blog-875": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "items": [
@@ -67,57 +67,57 @@
     ],
     "metadata": "metadata---adc-tp-3-docusaurus-blog-7-c-9-df3"
   },
-  "/ADC-TP3-Docusaurus/blog/archive-0a9": {
+  "/ADC-TP3-Docusaurus/blog/archive-2d2": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "archive": "archive---adc-tp-3-docusaurus-blog-archive-96-e-53d"
   },
-  "/ADC-TP3-Docusaurus/blog/blog-dce": {
+  "/ADC-TP3-Docusaurus/blog/blog-ba4": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "content": "content---adc-tp-3-docusaurus-blog-blogdd-2-205"
   },
-  "/ADC-TP3-Docusaurus/blog/first-blog-post-955": {
+  "/ADC-TP3-Docusaurus/blog/first-blog-post-13f": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "content": "content---adc-tp-3-docusaurus-blog-first-blog-poste-27-5e1"
   },
-  "/ADC-TP3-Docusaurus/blog/long-blog-post-1e2": {
+  "/ADC-TP3-Docusaurus/blog/long-blog-post-3a0": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "content": "content---adc-tp-3-docusaurus-blog-long-blog-post-736-5e0"
   },
-  "/ADC-TP3-Docusaurus/blog/mdx-blog-post-22e": {
+  "/ADC-TP3-Docusaurus/blog/mdx-blog-post-d46": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "content": "content---adc-tp-3-docusaurus-blog-mdx-blog-post-593-259"
   },
-  "/ADC-TP3-Docusaurus/blog/tags-5f5": {
+  "/ADC-TP3-Docusaurus/blog/tags-e63": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "tags": "tags---adc-tp-3-docusaurus-blog-tags-49-e-8a6"
   },
-  "/ADC-TP3-Docusaurus/blog/tags/docusaurus-2bc": {
+  "/ADC-TP3-Docusaurus/blog/tags/docusaurus-a1a": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "items": [
@@ -137,10 +137,10 @@
     "tag": "tag---adc-tp-3-docusaurus-blog-tags-docusaurus-4-dc-673",
     "listMetadata": "listMetadata---adc-tp-3-docusaurus-blog-tags-docusaurus-88-f-751"
   },
-  "/ADC-TP3-Docusaurus/blog/tags/facebook-28d": {
+  "/ADC-TP3-Docusaurus/blog/tags/facebook-631": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "items": [
@@ -151,10 +151,10 @@
     "tag": "tag---adc-tp-3-docusaurus-blog-tags-facebook-4-e-5-803",
     "listMetadata": "listMetadata---adc-tp-3-docusaurus-blog-tags-facebook-02-d-35a"
   },
-  "/ADC-TP3-Docusaurus/blog/tags/hello-d31": {
+  "/ADC-TP3-Docusaurus/blog/tags/hello-1b8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "items": [
@@ -168,10 +168,10 @@
     "tag": "tag---adc-tp-3-docusaurus-blog-tags-hello-3-eb-b8c",
     "listMetadata": "listMetadata---adc-tp-3-docusaurus-blog-tags-hello-286-43e"
   },
-  "/ADC-TP3-Docusaurus/blog/tags/hola-e5f": {
+  "/ADC-TP3-Docusaurus/blog/tags/hola-7e8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "items": [
@@ -182,46 +182,46 @@
     "tag": "tag---adc-tp-3-docusaurus-blog-tags-hola-726-d6e",
     "listMetadata": "listMetadata---adc-tp-3-docusaurus-blog-tags-hola-313-a43"
   },
-  "/ADC-TP3-Docusaurus/blog/welcome-594": {
+  "/ADC-TP3-Docusaurus/blog/welcome-1ee": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-blog-54-f-cfc"
+      "plugin": "plugin---adc-tp-3-docusaurus-blog-640-7ae"
     },
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "content": "content---adc-tp-3-docusaurus-blog-welcomed-9-f-218"
   },
-  "/ADC-TP3-Docusaurus/markdown-page-2fc": {
+  "/ADC-TP3-Docusaurus/markdown-page-224": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-markdown-pageb-3-f-d34"
+      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-1-d-2-c94"
     },
     "content": "content---adc-tp-3-docusaurus-markdown-page-393-656"
   },
-  "/ADC-TP3-Docusaurus/pagina-b2b": {
+  "/ADC-TP3-Docusaurus/pagina-f16": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-markdown-pageb-3-f-d34"
+      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-1-d-2-c94"
     },
     "content": "content---adc-tp-3-docusaurus-paginac-32-263"
   },
-  "/ADC-TP3-Docusaurus/VendaLivros-6dc": {
+  "/ADC-TP3-Docusaurus/VendaLivros-81b": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-markdown-pageb-3-f-d34"
+      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-1-d-2-c94"
     },
     "content": "content---adc-tp-3-docusaurus-venda-livrosa-20-bec"
   },
-  "/ADC-TP3-Docusaurus/VendaSoftware-719": {
+  "/ADC-TP3-Docusaurus/VendaSoftware-c34": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-markdown-pageb-3-f-d34"
+      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-1-d-2-c94"
     },
     "content": "content---adc-tp-3-docusaurus-venda-softwared-77-37a"
   },
-  "/ADC-TP3-Docusaurus/docs-904": {
+  "/ADC-TP3-Docusaurus/docs-9fa": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-docscb-7-e36"
+      "plugin": "plugin---adc-tp-3-docusaurus-docs-6-d-7-d3f"
     },
     "versionMetadata": "versionMetadata---adc-tp-3-docusaurus-docs-935-0cd"
   },
@@ -269,10 +269,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---adc-tp-3-docusaurus-docs-tutorial-extras-translate-your-sitee-44-5e6"
   },
-  "/ADC-TP3-Docusaurus/-63b": {
+  "/ADC-TP3-Docusaurus/-6f9": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-markdown-pageb-3-f-d34"
+      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-1-d-2-c94"
     },
     "config": "config---adc-tp-3-docusaurus-5-e-9-7ea"
   }
