@@ -21,3 +21,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.paginaInicial {
+  padding: 20px;
+  text-align: center;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: left; 
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+
