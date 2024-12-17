@@ -1,0 +1,32 @@
+.featuresSection {
+    padding: 50px 0;
+
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+ 
+.featuresSection {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+  }
+  
+  .featureCard {
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+   
+  }
+  
+  
+  .featureCard:hover {
+    transform: translateY(-10px);
+  }
+  

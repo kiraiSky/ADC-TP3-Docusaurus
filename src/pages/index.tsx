@@ -5,7 +5,9 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import BookModal from "../components/BookModal";
 import styles from "./index.module.css";
-
+import Authors from "../components/Authors";
+import Features from "../components/Features";
+import AboutUs from "../components/AboutUs";
 // Estrutura do Livro
 interface Book {
   id: number;
@@ -14,9 +16,11 @@ interface Book {
 }
 // Dados exclusivos do carrossel
 const carouselItems = [
-  { id: 1, title: "Conheça Nosso Acervo", image: "/img/carousel1.jpg" },
-  { id: 2, title: "Participe de Workshops", image: "/img/carousel2.jpg" },
-  { id: 3, title: "Espaços Colaborativos", image: "/img/carousel3.jpg" },
+  { id: 1, title: "Biblioteca pro MAX", image: "./img/slider/mainpage.png" },
+  { id: 2, title: "Participe de Workshops", image: "./img//slider/carousel1.jpg" },
+  { id: 3, title: "Espaços Colaborativos", image: "./img//slider/carousel2.jpg" },
+  { id: 4, title: "Espaços Colaborativos", image: "./img//slider/carousel3.jpg" },
+  { id: 4, title: "Espaços Colaborativos", image: "./img//slider/carousel3.png" },
 ];
 
 
@@ -39,7 +43,7 @@ function HomepageHeader() {
     setCurrentIndex((prev) => (prev - 1 + carouselItems.length) % carouselItems.length);
 
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    
       <div className={styles.carouselContainer}>
         {/* Imagem e Overlay */}
         <div
@@ -57,7 +61,7 @@ function HomepageHeader() {
           <button onClick={goToNext} className={styles.arrowButton}>&#8594;</button>
         </div>
       </div>
-    </header>
+  
   );
 }
 function BookShelf() {
@@ -91,33 +95,6 @@ function BookShelf() {
   );
 }
 
-function Features() {
-  return (
-    <div className="socorro">
-      <div className="container">
-        <div className="row">
-          <div className={clsx("col col--6", styles.featureCard)}>
-            <h3>📚 Acervo Inovador</h3>
-            <p>Mais de 50.000 títulos sobre tecnologia, ciência e inovação. Livros, e-books e audiolivros cuidadosamente selecionados para inspirar sua criatividade.</p>
-          </div>
-          <div className={clsx("col col--6", styles.featureCard)}>
-            <h3>🛋️ Espaços Modernos</h3>
-            <p>Makerspace, laboratórios de realidade virtual e salas de estudo colaborativo. Ideal para transformar ideias em projetos.</p>
-          </div>
-          <div className={clsx("col col--6", styles.featureCard)}>
-            <h3>🌟 Eventos e Workshops</h3>
-            <p>Participe de hackathons, palestras e cursos sobre tecnologia emergente e tendências futuras.</p>
-          </div>
-          <div className={clsx("col col--6", styles.featureCard)}>
-            <h3>🖥️ Software robusto e confiável</h3>
-            <p>Possuímos um software de gestão de livros que é possível de adquirir!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -127,7 +104,17 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <AboutUs />
         <Features />
+      
+        <Authors />
+        <section>
+          <h2 style={{ textAlign: "center", margin: "20px 0" }}>📚 Estante de Livros Interativa</h2>
+         
+         <div className={styles.callToAction}>
+         <BookShelf />
+          </div> 
+        </section>
         <section className={styles.callToAction}>
           <div className="container">
             <h2 className={styles.callToActionTitle}>🌐 Junte-se à Revolução do Conhecimento</h2>
@@ -136,10 +123,6 @@ export default function Home() {
             </p>
             <Link className="button button--primary button--lg" to="/">Seja Membro PRO MAX</Link>
           </div>
-        </section>
-        <section>
-          <h2 style={{ textAlign: "center", margin: "20px 0" }}>📚 Estante de Livros Interativa</h2>
-          <BookShelf />
         </section>
       </main>
     </Layout>
