@@ -23,6 +23,9 @@
   
   .card-livro-conteudo {
     padding: 15px;
+    height: 100%;
+    display: grid;
+    text-align: center;
   }
   
   .card-livro-titulo {
@@ -47,6 +50,7 @@
   
   .card-livro-link {
     text-decoration: none;
+    align-self: end;
   }
   
   .card-livro-botao {

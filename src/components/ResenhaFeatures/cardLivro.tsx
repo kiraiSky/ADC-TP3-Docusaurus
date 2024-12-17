@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './CardLivro.css'; // Estilos para o card
+import './CardLivro.css';
 
 const CardLivro = ({ titulo, autor, descricao, capa, path }) => {
   return (
