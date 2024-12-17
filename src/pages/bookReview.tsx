@@ -6,7 +6,6 @@ import styles from './index.module.css';
 const PaginaInicialResenhas = () => {
   const resenhas = [
     {
-      id: 1,
       titulo: '1984',
       autor: 'George Orwell',
       descricao: 'Uma análise profunda sobre o livro 1984, cobrindo os principais aspectos da obra.',
@@ -14,13 +13,47 @@ const PaginaInicialResenhas = () => {
       path: '/resenhas/1984',
     },
     {
-      id: 2,
       titulo: 'Harry Potter and the Deathly Hallows',
       autor: 'J.K Rowling',
       descricao: 'Resenha detalhada sobre o livro Harry Potter, incluindo crítica, direção.',
       capa: 'https://cdn.europosters.eu/image/750/telas-harry-potter-deathly-hallows-book-cover-i214933.jpg',
       path: '/ADC-TP3-Docusaurus/resenhas/harryPotter',
     },
+    {
+      titulo: 'Harry Potter and the Deathly Hallows',
+      autor: 'J.K Rowling',
+      descricao: 'Resenha detalhada sobre o livro Harry Potter, incluindo crítica, direção.',
+      capa: 'https://cdn.europosters.eu/image/750/telas-harry-potter-deathly-hallows-book-cover-i214933.jpg',
+      path: '/ADC-TP3-Docusaurus/resenhas/harryPotter',
+    },
+    {
+      titulo: 'Harry Potter and the Deathly Hallows',
+      autor: 'J.K Rowling',
+      descricao: 'Resenha detalhada sobre o livro Harry Potter, incluindo crítica, direção.',
+      capa: 'https://cdn.europosters.eu/image/750/telas-harry-potter-deathly-hallows-book-cover-i214933.jpg',
+      path: '/ADC-TP3-Docusaurus/resenhas/harryPotter',
+    },
+    {
+      titulo: 'Harry Potter and the Deathly Hallows',
+      autor: 'J.K Rowling',
+      descricao: 'Resenha detalhada sobre o livro Harry Potter, incluindo crítica, direção.',
+      capa: 'https://cdn.europosters.eu/image/750/telas-harry-potter-deathly-hallows-book-cover-i214933.jpg',
+      path: '/ADC-TP3-Docusaurus/resenhas/harryPotter',
+    },
+    {
+      titulo: 'Harry Potter and the Deathly Hallows',
+      autor: 'J.K Rowling',
+      descricao: 'Resenha detalhada sobre o livro Harry Potter, incluindo crítica, direção.',
+      capa: 'https://cdn.europosters.eu/image/750/telas-harry-potter-deathly-hallows-book-cover-i214933.jpg',
+      path: '/ADC-TP3-Docusaurus/resenhas/harryPotter',
+    },
+    {
+      titulo: 'Harry Potter and the Deathly Hallows',
+      autor: 'J.K Rowling',
+      descricao: 'Resenha detalhada sobre o livro Harry Potter, incluindo crítica, direção.',
+      capa: 'https://cdn.europosters.eu/image/750/telas-harry-potter-deathly-hallows-book-cover-i214933.jpg',
+      path: '/ADC-TP3-Docusaurus/resenhas/harryPotter',
+    },    
   ];
 
   return (
@@ -30,7 +63,6 @@ const PaginaInicialResenhas = () => {
         <div className={styles.cardsContainer}>
           {resenhas.map((resenha) => (
             <CardLivro 
-              key={resenha.id}
               titulo={resenha.titulo}
               autor={resenha.autor}
               descricao={resenha.descricao}
