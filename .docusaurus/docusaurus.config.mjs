@@ -55,8 +55,8 @@ export default {
           "position": "right"
         },
         {
-          "to": "/pagina",
-          "label": "pagina",
+          "to": "/estante",
+          "label": "Estante Interativa",
           "position": "left"
         },
         {

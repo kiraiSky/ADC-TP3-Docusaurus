@@ -8,6 +8,7 @@ import styles from "./index.module.css";
 import Authors from "../components/Authors";
 import Features from "../components/Features";
 import AboutUs from "../components/AboutUs";
+import ContactForm from "../components/ContactForm";
 // Estrutura do Livro
 interface Book {
   id: number;
@@ -105,29 +106,24 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <AboutUs />
-        <Features />
-      
-        <Authors />
-        <section>
-          <h2 style={{ textAlign: "center", margin: "20px 0" }}>📚 Estante de Livros Interativa</h2>
-         
-         <div className="container">
-          <div className={styles.thin}>
-
-         
-         <BookShelf />
-         </div>
-          </div> 
-        </section>
-        <section className={styles.callToAction}>
+           <section className={styles.callToAction}>
           <div className="container">
             <h2 className={styles.callToActionTitle}>🌐 Junte-se à Revolução do Conhecimento</h2>
+            <br />
+
             <p className={styles.callToActionText}>
               Descubra um mundo de inovação e aprendizado. Torne-se membro e aproveite todas as vantagens que a Biblioteca PRO MAX tem a oferecer.
             </p>
-            <Link className="button button--primary button--lg" to="/">Seja Membro PRO MAX</Link>
+            <br />
+            <Link className="button button--primary button--lg" to="/VendaSoftware">Consultar planos PRO AMX</Link>
+            <br />
           </div>
         </section>
+        <Features />
+      
+        <Authors />
+      
+     <ContactForm/>
       </main>
     </Layout>
   );

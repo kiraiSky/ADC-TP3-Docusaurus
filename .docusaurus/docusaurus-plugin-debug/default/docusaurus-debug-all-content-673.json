@@ -704,6 +704,11 @@
     "default": [
       {
         "type": "jsx",
+        "permalink": "/ADC-TP3-Docusaurus/estante",
+        "source": "@site/src/pages/estante.tsx"
+      },
+      {
+        "type": "jsx",
         "permalink": "/ADC-TP3-Docusaurus/",
         "source": "@site/src/pages/index.tsx"
       },
@@ -715,13 +720,6 @@
         "frontMatter": {
           "title": "Markdown page example"
         }
-      },
-      {
-        "type": "mdx",
-        "permalink": "/ADC-TP3-Docusaurus/pagina",
-        "source": "@site/src/pages/pagina.md",
-        "description": "DUMMY TEXT",
-        "frontMatter": {}
       },
       {
         "type": "mdx",

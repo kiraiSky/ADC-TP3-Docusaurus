@@ -1,39 +1,40 @@
 import React from "react";
 import styles from "./HomepageFeatures/authors.module.css";
-
+import style from "../pages/index.module.css"
 // Dados dos Autores
 const authors = [
   {
     id: 1,
     name: "Hanna Paiva",
     description: "Especialista em Design e leitora ávida",
-    image: "/img/hanna.jpg",
+    image: "./img/authors/hanna.png",
   },
   {
     id: 2,
     name: "Adriano Muncaciu",
     description: "Manager da área de venda de livros",
-    image: "/img/adriano.jpg",
+    image: "./img/authors/adriano.png",
   },
   {
     id: 3,
     name: "João Cunha",
     description: "Responsável pelas resenhas submetidas dos livros.",
-    image: "/img/joao.jpg",
+    image: "./img/authors/joao.png",
   },
   {
     id: 4,
     name: "Paulo Ferreira",
     description: "Vendedor do software desenvolvido para gestão de livros",
-    image: "/img/paulo.jpg",
+    image: "./img/authors/paulo.png",
   },
 ];
 
 const Authors: React.FC = () => {
   return (
+    <div className={style.callToAction}>
     <div className={styles.container}>
       {/* Título no topo */}
-      <h2 className={styles.title}>Idealizadores da biblioteca pro max</h2>
+      <h2 >Idealizadores da Biblioteca Pro Max</h2>
 
       {/* Lista de Autores */}
       {authors.map((author, index) => (
@@ -58,6 +59,7 @@ const Authors: React.FC = () => {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };

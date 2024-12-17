@@ -98,13 +98,13 @@ export default [
     exact: true
   },
   {
-    path: '/ADC-TP3-Docusaurus/markdown-page',
-    component: ComponentCreator('/ADC-TP3-Docusaurus/markdown-page', '98e'),
+    path: '/ADC-TP3-Docusaurus/estante',
+    component: ComponentCreator('/ADC-TP3-Docusaurus/estante', 'dd0'),
     exact: true
   },
   {
-    path: '/ADC-TP3-Docusaurus/pagina',
-    component: ComponentCreator('/ADC-TP3-Docusaurus/pagina', 'b7a'),
+    path: '/ADC-TP3-Docusaurus/markdown-page',
+    component: ComponentCreator('/ADC-TP3-Docusaurus/markdown-page', '98e'),
     exact: true
   },
   {

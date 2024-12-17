@@ -190,19 +190,19 @@
     "sidebar": "sidebar---adc-tp-3-docusaurus-blog-814-f78",
     "content": "content---adc-tp-3-docusaurus-blog-welcomed-9-f-218"
   },
+  "/ADC-TP3-Docusaurus/estante-dd0": {
+    "__comp": "__comp---site-src-pages-estante-tsxe-2-d-290",
+    "__context": {
+      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-161-cf2"
+    },
+    "config": "config---adc-tp-3-docusaurus-5-e-9-7ea"
+  },
   "/ADC-TP3-Docusaurus/markdown-page-98e": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
       "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-161-cf2"
     },
     "content": "content---adc-tp-3-docusaurus-markdown-page-393-656"
-  },
-  "/ADC-TP3-Docusaurus/pagina-b7a": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---adc-tp-3-docusaurus-markdown-page-161-cf2"
-    },
-    "content": "content---adc-tp-3-docusaurus-paginac-32-263"
   },
   "/ADC-TP3-Docusaurus/VendaLivros-a73": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

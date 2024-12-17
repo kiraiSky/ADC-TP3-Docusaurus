@@ -77,7 +77,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {to: '/pagina', label: 'pagina', position: 'left'},
+          {to: '/estante', label: 'Estante Interativa', position: 'left'},
           {to: '/vendalivros', label: 'vendalivros', position: 'left'},
           {to: '/VendaSoftware', label: 'Software', position: 'left'}
         ],
