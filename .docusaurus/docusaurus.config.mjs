@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\admin\\Documents\\ADC-TP3-Docusaurus\\sidebars.js",
+          "sidebarPath": "C:\\Users\\admin\\Desktop\\clone\\ADC-TP3-Docusaurus\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\admin\\Documents\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\admin\\Desktop\\clone\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
         }
       }
     ]
