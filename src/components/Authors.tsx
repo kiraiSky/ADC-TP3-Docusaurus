@@ -6,25 +6,25 @@ const authors = [
   {
     id: 1,
     name: "Hanna Paiva",
-    description: "Especialista em literatura clássica e digital.",
+    description: "Especialista em Design e leitora ávida",
     image: "/img/hanna.jpg",
   },
   {
     id: 2,
     name: "Adriano Muncacio",
-    description: "Desenvolvedor responsável pela tecnologia inovadora.",
+    description: "Curador da venda de livros",
     image: "/img/adriano.jpg",
   },
   {
     id: 3,
     name: "João Cunha",
-    description: "Curador de livros e eventos literários.",
+    description: "Responsável pelas resenhas submetidas dos livros.",
     image: "/img/joao.jpg",
   },
   {
     id: 4,
     name: "Paulo Ferreira",
-    description: "Líder do projeto Biblioteca Pro Max.",
+    description: "Vendedor do software desenvolvido para gestão de livros",
     image: "/img/paulo.jpg",
   },
 ];
