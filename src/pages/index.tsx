@@ -111,8 +111,12 @@ export default function Home() {
         <section>
           <h2 style={{ textAlign: "center", margin: "20px 0" }}>📚 Estante de Livros Interativa</h2>
          
-         <div className={styles.callToAction}>
+         <div className="container">
+          <div className={styles.thin}>
+
+         
          <BookShelf />
+         </div>
           </div> 
         </section>
         <section className={styles.callToAction}>

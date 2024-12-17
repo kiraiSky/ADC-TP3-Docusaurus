@@ -11,8 +11,8 @@ const authors = [
   },
   {
     id: 2,
-    name: "Adriano Muncacio",
-    description: "Curador da venda de livros",
+    name: "Adriano Muncaciu",
+    description: "Manager da área de venda de livros",
     image: "/img/adriano.jpg",
   },
   {
