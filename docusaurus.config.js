@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Biblioteca pro max',
+  title: 'Biblioteca Pro Max',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 

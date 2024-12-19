@@ -43,8 +43,7 @@ function HomepageHeader() {
   const goToPrev = () =>
     setCurrentIndex((prev) => (prev - 1 + carouselItems.length) % carouselItems.length);
 
-  return (
-    
+  return ( 
       <div className={styles.carouselContainer}>
         {/* Imagem e Overlay */}
         <div

@@ -1,0 +1,71 @@
+.card-livro {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .card-livro:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-livro-imagem img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  
+  .card-livro-conteudo {
+    padding: 15px;
+    height: 100%;
+    display: grid;
+    text-align: center;
+  }
+  
+  .card-livro-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .card-livro-autor {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .card-livro-descricao {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0;
+    line-height: 1.4;
+  }
+  
+  .card-livro-link {
+    text-decoration: none;
+    align-self: end;
+  }
+  
+  .card-livro-botao {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-livro-botao:hover {
+    background-color: #0056b3;
+    
+  }
+  
