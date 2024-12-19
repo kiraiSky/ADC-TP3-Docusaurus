@@ -414,3 +414,6 @@ padding: 50px;
 .closeButton:hover {
   background-color: #d9363e;
 }
+*{
+  background-color: #ffffff !important;
+}
