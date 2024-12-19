@@ -1,82 +1,128 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import styles from './index.module.css';
+import React, { useState } from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import BookModal from "../components/BookModal";
+import styles from "./index.module.css";
+import Authors from "../components/Authors";
+import Features from "../components/Features";
+import AboutUs from "../components/AboutUs";
+import ContactForm from "../components/ContactForm";
+// Estrutura do Livro
+interface Book {
+  id: number;
+  title: string;
+  description: string;
+}
+// Dados exclusivos do carrossel
+const carouselItems = [
+  { id: 1, title: "Biblioteca pro MAX", image: "./img/slider/mainpage.png" },
+  { id: 2, title: "Participe de Workshops", image: "./img//slider/carousel1.jpg" },
+  { id: 3, title: "Espaços Colaborativos", image: "./img//slider/carousel2.jpg" },
+  { id: 4, title: "Espaços Colaborativos", image: "./img//slider/carousel3.jpg" },
+  { id: 4, title: "Espaços Colaborativos", image: "./img//slider/carousel3.png" },
+];
+
+
+// Dados dos livros
+const books: Book[] = [
+  { id: 1, title: "Livro 1", description: "Descrição do Livro 1" },
+  { id: 2, title: "Livro 2", description: "Descrição do Livro 2" },
+  { id: 3, title: "Livro 3", description: "Descrição do Livro 3" },
+  { id: 4, title: "Livro 4", description: "Descrição do Livro 4" },
+  { id: 5, title: "Livro 5", description: "Descrição do Livro 5" },
+  { id: 6, title: "Livro 6", description: "Descrição do Livro 6" },
+];
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/">
-            Explore os Benefícios 🚀
-          </Link>
-          <Link className="button button--secondary button--lg" to="/bookReview">
-          DUMMYssss 🚀
-          </Link>
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Funções para avançar e retroceder no carrossel
+  const goToNext = () => setCurrentIndex((prev) => (prev + 1) % carouselItems.length);
+  const goToPrev = () =>
+    setCurrentIndex((prev) => (prev - 1 + carouselItems.length) % carouselItems.length);
+
+  return ( 
+      <div className={styles.carouselContainer}>
+        {/* Imagem e Overlay */}
+        <div
+          className={styles.carouselImage}
+          style={{
+            backgroundImage: `url(${carouselItems[currentIndex].image})`,
+          }}
+        >
+          <div className={styles.overlay}></div>
+          <div className={styles.carouselContent}>
+            <h1 className="hero__title happy">{carouselItems[currentIndex].title}</h1>
+          </div>
+          {/* Botões estilizados */}
+          <button onClick={goToPrev} className={styles.arrowButton}>&#8592;</button>
+          <button onClick={goToNext} className={styles.arrowButton}>&#8594;</button>
         </div>
       </div>
-    </header>
+  
+  );
+}
+function BookShelf() {
+  const [selectedBook, setSelectedBook] = useState<Book | null>(null);
+
+  return (
+    <div className={styles.bookshelf}>
+      {/* Prateleiras com livros */}
+      {[...Array(2)].map((_, shelfIndex) => (
+        <div key={shelfIndex} className={styles.shelf}>
+          {books.map((book) => (
+            <div
+              key={book.id}
+              className={styles.book}
+              onClick={() => setSelectedBook(book)}
+              title={book.title}
+            ></div>
+          ))}
+        </div>
+      ))}
+
+      {/* Modal */}
+      {selectedBook && (
+        <BookModal
+          title={selectedBook.title}
+          description={selectedBook.description}
+          onClose={() => setSelectedBook(null)}
+        />
+      )}
+    </div>
   );
 }
 
-function Features(): JSX.Element {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          <div className="col col--4">
-            <h3>📚 Acervo Inovador</h3>
-            <p>
-              Mais de 50.000 títulos sobre tecnologia, ciência e inovação. Livros, e-books e audiolivros cuidadosamente
-              selecionados para inspirar sua criatividade.
-            </p>
-          </div>
-          <div className="col col--4">
-            <h3>🛋️ Espaços Modernos</h3>
-            <p>
-              Makerspace, laboratórios de realidade virtual e salas de estudo colaborativo. Ideal para
-              transformar ideias em projetos.
-            </p>
-          </div>
-          <div className="col col--4">
-            <h3>🌟 Eventos e Workshops</h3>
-            <p>
-              Participe de hackathons, palestras e cursos sobre tecnologia emergente e tendências futuras.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export default function Home(): JSX.Element {
+export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Bem-vindo à ${siteConfig.title}`}
-      description="A Biblioteca PRO MAX é um centro de inovação, tecnologia e criatividade.">
+      description="A Biblioteca PRO MAX é um centro de inovação, tecnologia e criatividade."
+    >
       <HomepageHeader />
       <main>
-        <Features />
-        <section className={styles.callToAction}>
+        <AboutUs />
+           <section className={styles.callToAction}>
           <div className="container">
-            <h2>🌐 Junte-se à Revolução do Conhecimento</h2>
-            <p>
-              Descubra um mundo de inovação e aprendizado. Torne-se membro e aproveite todas as vantagens que a
-              Biblioteca PRO MAX tem a oferecer.
+            <h2 className={styles.callToActionTitle}>🌐 Junte-se à Revolução do Conhecimento</h2>
+            <br />
+
+            <p className={styles.callToActionText}>
+              Descubra um mundo de inovação e aprendizado. Torne-se membro e aproveite todas as vantagens que a Biblioteca PRO MAX tem a oferecer.
             </p>
-            <Link className="button button--primary button--lg" to="/">
-              Seja Membro PRO MAX
-            </Link>
+            <br />
+            <Link className="button button--primary button--lg" to="/VendaSoftware">Consultar planos PRO AMX</Link>
+            <br />
           </div>
         </section>
+        <Features />
+      
+        <Authors />
+      
+     <ContactForm/>
       </main>
     </Layout>
   );

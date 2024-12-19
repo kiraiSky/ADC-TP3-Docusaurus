@@ -5,6 +5,7 @@
 
 .heroBanner {
   padding: 4rem 0;
+  height: 900px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -35,4 +36,289 @@
   margin-top: 20px;
 }
 
+.happy{
+  padding: 100px;
+ }
 
+ /* Hero Header Container */
+.heroBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: #362855; /* Cor predominante */
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero Image */
+.heroImage {
+  max-width: 400px;
+  margin-bottom: 1.5rem;
+  animation: float 5s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+/* Title and Subtitle */
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+/* Button Styling */
+.buttons .button {
+  background-color: #af6444; /* Botão laranja */
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buttons .button:hover {
+  background-color: #6a7290; /* Azul acinzentado */
+  color: #fff;
+}
+.heroBanner {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.featuresSection {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.featureCard {
+  padding: 100px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+ 
+}
+
+.callToAction {
+  background-color: #362855;
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 2rem;
+  margin-top: 2rem;
+}
+
+.callToActionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.callToActionText {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.socorro{
+  padding: 100px !important;
+}
+
+.imaggy{
+  width: 30% !important;
+}
+
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6b4f4f;
+  border: 10px solid #5e3c3c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.shelf {
+  width: 100%;
+  height: 120px;
+  background-color: #4e3838;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border-bottom: 5px solid #3e2c2c;
+}
+
+.book {
+  width: 40px;
+  height: 100px;
+  background-color: #b085f5;
+  border: 2px solid #8b6f4d;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-origin: center bottom;
+}
+
+.book:hover {
+  transform: translateY(-20px) rotateX(20deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  max-width: 400px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Carrossel */
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+
+.carouselImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Filtro escurecido */
+}
+
+.carouselContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  color: #333;
+  border: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 50px;
+}
+
+.arrowButton:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.arrowButton:first-of-type {
+  left: 20px;
+}
+
+.arrowButton:last-of-type {
+  right: 20px;
+}
+
+/* Estante */
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6b4f4f;
+  padding: 20px;
+}
+
+.shelf {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.book {
+  width: 40px;
+  height: 100px;
+  background-color: #b085f5;
+  border: 2px solid #8b6f4d;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.book:hover {
+  transform: translateY(-20px) rotateX(20deg);
+}
+
+.thin{
+padding: 50px;
+ 
+}

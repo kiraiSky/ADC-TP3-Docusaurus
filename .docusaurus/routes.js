@@ -4,218 +4,122 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug', 'a34'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug', 'db4'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug', 'b5b'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug/config',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/config', 'c6d'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/config', 'e71'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/config', '239'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug/content',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/content', '8fc'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/content', 'ea0'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/content', '39c'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug/globalData',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/globalData', 'bca'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/globalData', '34b'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/globalData', '887'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug/metadata',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/metadata', '07e'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/metadata', 'd55'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/metadata', 'bfc'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug/registry',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/registry', '18b'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/registry', 'c14'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/registry', 'd62'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/__docusaurus/debug/routes',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/routes', 'e5f'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/routes', '53e'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/__docusaurus/debug/routes', '1a6'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog', 'af8'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog', '526'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog', '2ce'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/archive',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/archive', '0a9'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/archive', '5b6'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/archive', '435'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/blog',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/blog', 'dce'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/blog', 'c6d'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/blog', 'ee8'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/first-blog-post',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/first-blog-post', '955'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/first-blog-post', '0f0'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/first-blog-post', '551'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/long-blog-post',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/long-blog-post', '1e2'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/long-blog-post', '4ad'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/long-blog-post', '5c2'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/mdx-blog-post',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/mdx-blog-post', '22e'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/mdx-blog-post', '86b'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/mdx-blog-post', 'b11'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/tags',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags', '5f5'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags', 'b8c'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags', '043'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/tags/docusaurus',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/docusaurus', '2bc'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/docusaurus', '911'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/docusaurus', 'ee2'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/tags/facebook',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/facebook', '28d'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/facebook', '426'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/facebook', 'd96'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/tags/hello',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/hello', 'd31'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/hello', '5df'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/hello', '117'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/tags/hola',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/hola', 'e5f'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/hola', 'f27'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/tags/hola', 'd9a'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/blog/welcome',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/welcome', '594'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/welcome', '26a'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/blog/welcome', '4f7'),
+    exact: true
+  },
+  {
+    path: '/ADC-TP3-Docusaurus/estante',
+    component: ComponentCreator('/ADC-TP3-Docusaurus/estante', 'dd0'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/markdown-page',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/markdown-page', '2fc'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/markdown-page', '815'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
-    exact: true
-  },
-  {
-    path: '/ADC-TP3-Docusaurus/pagina',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/pagina', 'b2b'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/pagina', '667'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/markdown-page', '98e'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/VendaLivros',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/VendaLivros', '6dc'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/VendaLivros', 'cb0'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/VendaLivros', 'a73'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/VendaSoftware',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/VendaSoftware', '719'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/VendaSoftware', '776'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/VendaSoftware', 'cf3'),
     exact: true
   },
   {
     path: '/ADC-TP3-Docusaurus/docs',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/docs', '904'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/docs', '458'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/docs', '404'),
     routes: [
       {
         path: '/ADC-TP3-Docusaurus/docs/category/tutorial---basics',
@@ -287,11 +191,7 @@ export default [
   },
   {
     path: '/ADC-TP3-Docusaurus/',
-<<<<<<< HEAD
-    component: ComponentCreator('/ADC-TP3-Docusaurus/', '63b'),
-=======
-    component: ComponentCreator('/ADC-TP3-Docusaurus/', '7f6'),
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+    component: ComponentCreator('/ADC-TP3-Docusaurus/', 'e14'),
     exact: true
   },
   {

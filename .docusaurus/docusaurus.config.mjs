@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Test Site",
+  "title": "Biblioteca pro max",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://github.com",
@@ -27,11 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-<<<<<<< HEAD
-          "sidebarPath": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\adc\\ADC-TP3-Docusaurus\\sidebars.js",
-=======
-          "sidebarPath": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\sidebars.js",
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+          "sidebarPath": "C:\\Users\\admin\\Desktop\\clone\\ADC-TP3-Docusaurus\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -39,11 +35,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-<<<<<<< HEAD
-          "customCss": "C:\\Users\\admin\\OneDrive - Universidade do Algarve\\Ambiente de Trabalho\\adc\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
-=======
-          "customCss": "C:\\Users\\admin\\Desktop\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
+          "customCss": "C:\\Users\\admin\\Desktop\\clone\\ADC-TP3-Docusaurus\\src\\css\\custom.css"
         }
       }
     ]
@@ -51,41 +43,25 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Biblioteca Promax",
+      "title": "Biblioteca Pro max",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/LOGO.png"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
         {
           "href": "https://github.com/facebook/docusaurus",
           "label": "GitHub",
           "position": "right"
         },
         {
-          "to": "/pagina",
-          "label": "pagina",
+          "to": "/estante",
+          "label": "Estante Interativa",
           "position": "left"
         },
         {
-<<<<<<< HEAD
           "to": "/vendalivros",
           "label": "vendalivros",
-=======
-          "to": "/pagina",
-          "label": "pagina",
->>>>>>> d71289999727c134a17f83c85b0c9e9e060f7363
           "position": "left"
         },
         {

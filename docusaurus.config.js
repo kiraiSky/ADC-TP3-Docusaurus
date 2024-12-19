@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Biblioteca PRO Max',
+  title: 'Biblioteca Pro Max',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -65,25 +65,19 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Biblioteca Promax',
+        title: 'Biblioteca Pro max',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/LOGO.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+        
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
-          {to: '/pagina', label: 'pagina', position: 'left'},
+          {to: '/estante', label: 'Estante Interativa', position: 'left'},
           {to: '/vendalivros', label: 'vendalivros', position: 'left'},
           {to: '/VendaSoftware', label: 'Software', position: 'left'}
         ],
