@@ -1,9 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/ADC-TP3-Docusaurus/markdown-page",
-  "source": "@site/src/pages/markdown-page.md",
-  "title": "Markdown page example",
-  "frontMatter": {
-    "title": "Markdown page example"
-  }
-}
