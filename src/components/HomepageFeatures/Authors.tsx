@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./HomepageFeatures/authors.module.css";
-import style from "../pages/index.module.css"
+import styles from "./css/authors.module.css";
+import style from "../../pages/index.module.css"
 // Dados dos Autores
 const authors = [
   {

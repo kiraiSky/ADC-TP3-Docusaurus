@@ -294,12 +294,12 @@
   flex-direction: column;
   align-items: center;
   background-color: #6b4f4f;
-  padding: 20px;
+  padding: 40px;
 }
 
 .shelf {
   width: 100%;
-  height: 120px;
+  height: 180px;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
@@ -321,4 +321,96 @@
 .thin{
 padding: 50px;
  
+}
+
+.book {
+  width: 60px;
+  height: 150px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  /* Permitir que o texto quebre em múltiplas linhas */
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+
+  /* Adiciona padding para espaçamento interno */
+  padding: 5px;
+  box-sizing: border-box;
+
+  /* Ajusta o tamanho da fonte */
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.book:nth-child(3n + 1) {
+  background-color: #451e78;
+  color: white; 
+}
+
+ .book:nth-child(3n + 2) {
+  background-color: #c8f1f7; /* Cor para o segundo livro no ciclo */
+ 
+}
+
+.book:nth-child(3n) {
+  background-color: #ab7b2e; /* Cor para o terceiro livro no ciclo */
+  color: white;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  width: 1200px !important;
+  text-align: center;
+  position: relative;
+  height: 900px;
+  padding: 90px;
+}
+
+.pdfViewer {
+  width: 100%;
+  height: 600px;
+  border: none;
+  margin-top: 20px;
+}
+
+.closeButton {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.closeButton:hover {
+  background-color: #d9363e;
 }

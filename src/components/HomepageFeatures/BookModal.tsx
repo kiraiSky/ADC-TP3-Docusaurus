@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./HomepageFeatures/styles.module.css";
+import styles from "./css/styles.module.css";
 
 interface BookModalProps {
   title: string;

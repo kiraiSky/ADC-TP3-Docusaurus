@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {to: '/estante', label: 'Estante Interativa', position: 'left'},
-          {to: '/estante', label: 'Resenhas', position: 'left'},
+          {to: '/bookReview', label: 'Resenhas', position: 'left'},
           {to: '/vendalivros', label: 'Comprar livros', position: 'left'},
           {to: '/VendaSoftware', label: 'Software', position: 'left'}
         ],
