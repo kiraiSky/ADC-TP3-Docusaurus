@@ -6,7 +6,7 @@ const CardLivro = ({ titulo, autor, descricao, capa, path }) => {
   return (
     <div className="card-livro">
       <div className="card-livro-imagem">
-        <img src={capa} alt={`Capa do livro ${titulo}`} />
+        <img src={capa} alt={`Capa do livro ${titulo}.`} />
       </div>
       <div className="card-livro-conteudo">
         <h3 className="card-livro-titulo">{titulo}</h3>
