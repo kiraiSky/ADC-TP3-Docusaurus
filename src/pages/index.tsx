@@ -14,25 +14,25 @@ interface Book {
   id: number;
   title: string;
   description: string;
+  pdf: string;
 }
 // Dados exclusivos do carrossel
 const carouselItems = [
-  { id: 1, title: "Biblioteca pro MAX", image: "./img/slider/mainpage.png" },
-  { id: 2, title: "Participe de Workshops", image: "./img//slider/carousel1.jpg" },
-  { id: 3, title: "Espaços Colaborativos", image: "./img//slider/carousel2.jpg" },
-  { id: 4, title: "Espaços Colaborativos", image: "./img//slider/carousel3.jpg" },
-  { id: 4, title: "Espaços Colaborativos", image: "./img//slider/carousel3.png" },
+  { id: 1, title: "Biblioteca Pro MAX", image: "./img/slider/mainpage.png" },
+  { id: 2, title: "Leia livros como nunca leu antes", image: "./img/slider/carousel1.jpg" },
+  { id: 3, title: "Participe de espaços colaborativos", image: "./img/slider/carousel2.jpg" },
+  { id: 4, title: "Tecnologia e Literatura mescladas como um", image: "./img/slider/carousel3.jpg" },
 ];
 
 
 // Dados dos livros
 const books: Book[] = [
-  { id: 1, title: "Livro 1", description: "Descrição do Livro 1" },
-  { id: 2, title: "Livro 2", description: "Descrição do Livro 2" },
-  { id: 3, title: "Livro 3", description: "Descrição do Livro 3" },
-  { id: 4, title: "Livro 4", description: "Descrição do Livro 4" },
-  { id: 5, title: "Livro 5", description: "Descrição do Livro 5" },
-  { id: 6, title: "Livro 6", description: "Descrição do Livro 6" },
+  { id: 1, title: "Livro 1", description: "Descrição do Livro 1", pdf: "" },
+  { id: 2, title: "Livro 2", description: "Descrição do Livro 2", pdf: "" },
+  { id: 3, title: "Livro 3", description: "Descrição do Livro 3", pdf: "" },
+  { id: 4, title: "Livro 4", description: "Descrição do Livro 4", pdf: "" },
+  { id: 5, title: "Livro 5", description: "Descrição do Livro 5", pdf: "" },
+  { id: 6, title: "Livro 6", description: "Descrição do Livro 6", pdf: "" },
 ];
 
 function HomepageHeader() {
