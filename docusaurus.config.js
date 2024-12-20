@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Biblioteca pro max',
+  title: 'Biblioteca Pro Max',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/kiraiSky/ADC-TP3-Docusaurus',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/kiraiSky/ADC-TP3-Docusaurus',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,20 +71,15 @@ const config = {
           src: 'img/LOGO.png',
         },
         items: [
+        
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/kiraiSky/ADC-TP3-Docusaurus',
             label: 'GitHub',
             position: 'right',
           },
-          {to: '/pagina', label: 'pagina', position: 'left'},
-          {to: '/vendalivros', label: 'vendalivros', position: 'left'},
+          {to: '/estante', label: 'Estante Interativa', position: 'left'},
+          {to: '/bookReview', label: 'Resenhas', position: 'left'},
+          {to: '/vendalivros', label: 'Comprar livros', position: 'left'},
           {to: '/VendaSoftware', label: 'Software', position: 'left'}
         ],
       },
@@ -92,46 +87,38 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Livraria Virtual',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Estante Interativa',
+                to: '/estante',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Criticas & Opiniões',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Resenhas',
+                to: '/bookReview',
+              }
             ],
           },
           {
-            title: 'More',
+            title: 'Nossa loja',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Software',
+                to: '/VendaSoftware',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Livros',
+                to: '/vendaLivros',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Biblioteca Pro Max. um projeto académico produzido por Hanna Paiva, Adriano Muncaciu, Paulo Ferreira & João Cunha`,
       },
       prism: {
         theme: lightCodeTheme,
