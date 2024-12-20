@@ -355,8 +355,8 @@ padding: 50px;
 }
 
  .book:nth-child(3n + 2) {
-  background-color: #c8f1f7; /* Cor para o segundo livro no ciclo */
- 
+  background-color: #066371; /* Cor para o segundo livro no ciclo */
+  color: white;
 }
 
 .book:nth-child(3n) {
