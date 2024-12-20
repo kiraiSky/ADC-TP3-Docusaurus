@@ -1,0 +1,105 @@
+.booksPage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .booksContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .bookCard {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bookCover {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .bookTitle {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .bookPrice {
+    font-size: 18px;
+    color: #001f54;
+    margin-bottom: 10px;
+  }
+  
+  .buyButton {
+    background: #001f54;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buyButton:hover {
+    background: #003399;
+  }
+  .checkoutPage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .bookDetails {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .inputField {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submitButton {
+    background: #001f54;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background: #003399;
+  }
+  
+  .successMessage {
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
+  }
+  
