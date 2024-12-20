@@ -89,21 +89,21 @@ const shelves = [
         id: 9,
         title: "1984",
         description: "Distopia de George Orwell que explora vigilância e autoritarismo.",
-        pdf: "./books/1984.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/1984"
       },
       {
         id: 10,
         title: "O Pequeno Príncipe",
         description: "Clássico de Antoine de Saint-Exupéry sobre amizade, amor e humanidade.",
-        pdf: "./books/o-pequeno-principe.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/oPequenoPrincipe"
       },
       {
         id: 11,
         title: "Moby Dick",
         description: "A busca obsessiva do Capitão Ahab pela baleia branca, escrita por Herman Melville.",
-        pdf: "./books/moby-dick.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/mobyDick"
       }
     ]
@@ -115,35 +115,35 @@ const shelves = [
         id: 12,
         title: "O Senhor dos Anéis: A Sociedade do Anel",
         description: "Primeiro volume da trilogia épica de J.R.R. Tolkien.",
-        pdf: "./books/a-sociedade-do-anel.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/aSociedadeDoAnel"
       },
       {
         id: 13,
         title: "Crime e Castigo",
         description: "Exploração psicológica de Dostoiévski sobre culpa e redenção.",
-        pdf: "./books/crime-e-castigo.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/crimeECastigo"
       },
       {
         id: 14,
         title: "O Alquimista",
         description: "Inspiradora jornada de autodescoberta escrita por Paulo Coelho.",
-        pdf: "./books/o-alquimista.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/oAlquimista"
       },
       {
         id: 15,
         title: "Jane Eyre",
         description: "História de amor e resistência da protagonista homônima, escrita por Charlotte Brontë.",
-        pdf: "./books/jane-eyre.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/janeEyre"
       },
       {
         id: 16,
         title: "Orgulho e Preconceito",
         description: "Clássico de Jane Austen que explora relações sociais e amorosas na Inglaterra do século XIX.",
-        pdf: "./books/orgulho-e-preconceito.pdf",
+        pdf: "./books/NO.pdf",
         link: "/bookReview/orgulhoEPreconceito"
       }
     ]
