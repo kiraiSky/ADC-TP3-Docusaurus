@@ -4,11 +4,12 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import BookModal from "../components/HomepageFeatures/BookModal";
-import styles from "./index.module.css";
+
 import Authors from "../components/HomepageFeatures/Authors";
 import Features from "../components/HomepageFeatures/Features";
 import AboutUs from "../components/HomepageFeatures/AboutUs";
 import ContactForm from "../components/HomepageFeatures/ContactForm";
+import styles from "./index.module.css";
 // Estrutura do Livro
 
 // Dados exclusivos do carrossel
@@ -19,6 +20,20 @@ const carouselItems = [
   { id: 4, title: "Tecnologia e Literatura mescladas como um", image: "./img/slider/carousel3.jpg" },
 ];
 
+
+  const txtstyle: React.CSSProperties = {
+    fontSize: "56px", 
+    fontWeight: "600",
+    color: "#FFFFFF", 
+    textAlign: "center", 
+    lineHeight: "1.3", 
+    fontFamily: "'Playfair Display', serif", 
+    textTransform: "uppercase",
+    letterSpacing: "2px", 
+    margin: "0 auto", 
+    padding: "10px 20px", 
+    textShadow: "2px 4px 8px rgba(0, 0, 0, 0.7)", 
+  };
 
 
 function HomepageHeader() {
@@ -40,7 +55,7 @@ function HomepageHeader() {
         >
           <div className={styles.overlay}></div>
           <div className={styles.carouselContent}>
-            <h1 className="hero__title happy">{carouselItems[currentIndex].title}</h1>
+            <h1 className="hero__title happy" style={txtstyle}>{carouselItems[currentIndex].title}</h1>
           </div>
           {/* Botões estilizados */}
           <button onClick={goToPrev} className={styles.arrowButton}>&#8592;</button>
