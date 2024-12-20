@@ -22,12 +22,12 @@
   --ifm-color-primary: #6a7290; /* Blue Gray */
   --ifm-color-primary-dark: #5c647f; /* Darker Blue Gray */
   --ifm-color-primary-darker: #505870; /* Even Darker */
-  --ifm-color-primary-darkest: #444c63; /* Darkest */
+  --ifm-color-primary-darkest: #2c113b; /* Darkest */
   --ifm-color-primary-light: #788096; /* Lighter Blue Gray */
   --ifm-color-primary-lighter: #8690a4; /* Lightest */
   --ifm-color-primary-lightest: #949eb4; /* Light Blue Gray */
 
-  --ifm-color-secondary: #af6444; /* Warm Orange */
+  --ifm-color-secondary: #726e6c; /* Warm Orange */
   --ifm-color-background: #24193a; /* Dark Purple Background */
   --ifm-color-neutral: #c3b8ba; /* Light Gray Highlight */
   --ifm-color-highlight: #362855; /* Purple Highlight */
