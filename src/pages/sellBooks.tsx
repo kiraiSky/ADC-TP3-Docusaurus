@@ -4,9 +4,6 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import styles2 from "./index.module.css";
-
-
 
 // Estrutura do Livro
 interface Book {
@@ -16,12 +13,13 @@ interface Book {
   price: number;
   cover: string;
 }
- const imgStyle: React.CSSProperties = {
-  height: "300px",
-  width: "200px"
-  };
 
-// Lista de Livros
+const imgStyle: React.CSSProperties = {
+  height: "300px",
+  width: "200px",
+};
+
+// Lista de Livros (Incluindo os do Top Vendas)
 const books: Book[] = [
   {
     id: 1,
@@ -50,6 +48,27 @@ const books: Book[] = [
     description: "Um romance marcante de Machado de Assis.",
     price: 19.9,
     cover: "./covers/dom-casmurro.jpg",
+  },
+  {
+    id: 5,
+    title: "A Montanha Mágica",
+    description: "Uma obra-prima de Thomas Mann.",
+    price: 34.5,
+    cover: "./covers/AMontanhaMágica.png",
+  },
+  {
+    id: 6,
+    title: "1984",
+    description: "Uma distopia fascinante de George Orwell.",
+    price: 22.0,
+    cover: "./covers/1984.png",
+  },
+  {
+    id: 7,
+    title: "Atomic Habits",
+    description: "Melhore sua vida com hábitos eficazes por James Clear.",
+    price: 28.7,
+    cover: "./covers/atomic.png",
   },
 ];
 
@@ -102,44 +121,42 @@ const SellBooks: React.FC = () => {
       });
     }, 3000); // Redireciona para a página inicial após 3 segundos
   };
+
   const { siteConfig } = useDocusaurusContext();
+
   // Página de Listagem
   if (currentPage === "list") {
     return (
-   
-        <Layout
-          title={`Bem-vindo à ${siteConfig.title}`}
-          description="A Biblioteca PRO MAX é um centro de inovação, tecnologia e criatividade."
-        >
-    <main>
-      <div className={styles.booksPage}>
-        <h1 className={styles.title}>Compre Livros da Biblioteca Pro Max</h1>
-        <div className={styles.booksContainer}>
-          {books.map((book) => (
-            <div key={book.id} className={styles.bookCard}>
-              <img
-                src={book.cover}
-                alt={book.title}
-                className={styles.bookCover}
-              />
-              <h2 className={styles.bookTitle}>{book.title}</h2>
-              <p className={styles.bookDescription}>{book.description}</p>
-              <p className={styles.bookPrice}>
-                R$ {book.price.toFixed(2)}
-              </p>
-              <button
-                className={styles.buyButton}
-                onClick={() => handleBuyNow(book)}
-              >
-                Comprar Agora
-              </button>
+      <Layout
+        title={`Bem-vindo à ${siteConfig.title}`}
+        description="A Biblioteca PRO MAX é um centro de inovação, tecnologia e criatividade."
+      >
+        <main>
+          <div className={styles.booksPage}>
+            <h1 className={styles.title}>Compre Livros da Biblioteca Pro Max</h1>
+            <div className={styles.booksContainer}>
+              {books.map((book) => (
+                <div key={book.id} className={styles.bookCard}>
+                  <img
+                    src={book.cover}
+                    alt={book.title}
+                    className={styles.bookCover}
+                  />
+                  <h2 className={styles.bookTitle}>{book.title}</h2>
+                  <p className={styles.bookDescription}>{book.description}</p>
+                  <p className={styles.bookPrice}>€ {book.price.toFixed(2)}</p>
+                  <button
+                    className={styles.buyButton}
+                    onClick={() => handleBuyNow(book)}
+                  >
+                    Comprar Agora
+                  </button>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      </div>
-
-    </main>
-    </Layout>
+          </div>
+        </main>
+      </Layout>
     );
   }
 
@@ -150,14 +167,16 @@ const SellBooks: React.FC = () => {
         <h1 className={styles.title}>Finalizar Compra</h1>
         <p className={styles.bookDetails}>
           Livro: <strong>{selectedBook.title}</strong>
-          <p><img
-                src={selectedBook.cover}
-                alt={selectedBook.title}
-                style={imgStyle}
-              /></p>
+          <p>
+            <img
+              src={selectedBook.cover}
+              alt={selectedBook.title}
+              style={imgStyle}
+            />
+          </p>
         </p>
         <p className={styles.bookDetails}>
-          Preço: <strong>R$ {selectedBook.price.toFixed(2)}</strong>
+          Preço: <strong>€ {selectedBook.price.toFixed(2)}</strong>
         </p>
         {!isSuccess ? (
           <form onSubmit={handleCheckout} className={styles.form}>

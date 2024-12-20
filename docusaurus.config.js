@@ -79,8 +79,10 @@ const config = {
           },
           {to: '/estante', label: 'Estante Interativa', position: 'left'},
           {to: '/bookReview', label: 'Resenhas', position: 'left'},
-          {to: '/vendalivros', label: 'Comprar livros', position: 'left'},
-          {to: '/VendaSoftware', label: 'Software', position: 'left'}
+          {to: '/vendalivros', label: 'Top Vendas', position: 'left'},
+          {to: '/VendaSoftware', label: 'Software', position: 'left'},
+          {to: '/sellBooks', label: 'Compre Livros', position: 'left'}
+          
         ],
       },
       footer: {
