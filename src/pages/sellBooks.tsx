@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./vendaLivros.module.css";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 
@@ -19,7 +17,7 @@ const imgStyle: React.CSSProperties = {
   width: "200px",
 };
 
-// Lista de Livros (Incluindo os do Top Vendas)
+// Lista de Livros
 const books: Book[] = [
   {
     id: 1,
@@ -134,23 +132,29 @@ const SellBooks: React.FC = () => {
         <main>
           <div className={styles.booksPage}>
             <h1 className={styles.title}>Compre Livros da Biblioteca Pro Max</h1>
-            <div className={styles.booksContainer}>
+            <div className={`row ${styles.booksContainer}`}>
               {books.map((book) => (
-                <div key={book.id} className={styles.bookCard}>
-                  <img
-                    src={book.cover}
-                    alt={book.title}
-                    className={styles.bookCover}
-                  />
-                  <h2 className={styles.bookTitle}>{book.title}</h2>
-                  <p className={styles.bookDescription}>{book.description}</p>
-                  <p className={styles.bookPrice}>€ {book.price.toFixed(2)}</p>
-                  <button
-                    className={styles.buyButton}
-                    onClick={() => handleBuyNow(book)}
-                  >
-                    Comprar Agora
-                  </button>
+                <div key={book.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
+                  <div className={styles.bookCard}>
+                    <img
+                      src={book.cover}
+                      alt={book.title}
+                      className={styles.bookCover}
+                    />
+                    <h2 className={styles.bookTitle}>{book.title}</h2>
+                    <p className={styles.bookDescription}>
+                      {book.description}
+                    </p>
+                    <p className={styles.bookPrice}>
+                      € {book.price.toFixed(2)}
+                    </p>
+                    <button
+                      className={styles.buyButton}
+                      onClick={() => handleBuyNow(book)}
+                    >
+                      Comprar Agora
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>

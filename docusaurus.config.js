@@ -81,8 +81,8 @@ const config = {
           {to: '/bookReview', label: 'Resenhas', position: 'left'},
           {to: '/vendalivros', label: 'Top Vendas', position: 'left'},
           {to: '/VendaSoftware', label: 'Software', position: 'left'},
-          {to: '/sellBooks', label: 'Compre Livros', position: 'left'}
-          
+          {to: '/sellBooks', label: 'Compre Livros', position: 'left'},
+          {to: '/membership', label: 'Torne-se Pro Max', position: 'right'}
         ],
       },
       footer: {

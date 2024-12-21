@@ -26,12 +26,10 @@
   --ifm-color-primary-light: #788096; /* Lighter Blue Gray */
   --ifm-color-primary-lighter: #8690a4; /* Lightest */
   --ifm-color-primary-lightest: #949eb4; /* Light Blue Gray */
-
-  --ifm-color-secondary: #726e6c; /* Warm Orange */
+  --ifm-color-secondary: #e4e2e2; /* Warm Orange */
   --ifm-color-background: #24193a; /* Dark Purple Background */
   --ifm-color-neutral: #c3b8ba; /* Light Gray Highlight */
   --ifm-color-highlight: #362855; /* Purple Highlight */
-
   --docusaurus-highlighted-code-line-bg: rgba(175, 100, 68, 0.2);
 }
 

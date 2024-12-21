@@ -1,7 +1,6 @@
 .membershipContainer {
     text-align: center;
     padding: 40px 20px;
-  
   }
   
   .title {
@@ -20,9 +19,15 @@
     gap: 20px;
     flex-wrap: wrap;
   }
+  ol, li{
+    text-align: center;
+  }
   
   .card {
+    align-items: center !important;
+    text-align: center;
     background-color: #fff;
+    color: black;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
@@ -47,14 +52,13 @@
   .planName {
     font-size: 24px;
     font-weight: bold;
-    color: #333;
+
     margin-bottom: 10px;
   }
   
   .price {
     font-size: 20px;
     font-weight: bold;
-    color: #555;
     margin-bottom: 20px;
   }
   
@@ -67,13 +71,12 @@
   
   .benefits li {
     font-size: 14px;
-    color: #555;
     margin-bottom: 10px;
   }
   
   .selectButton {
     background-color: #001f54;
-    
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;

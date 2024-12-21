@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./membership.module.css";
 import Link from "@docusaurus/Link";
+import Layout from "@theme/Layout";
 
 const MembershipPage: React.FC = () => {
   const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
@@ -37,6 +38,8 @@ const MembershipPage: React.FC = () => {
   };
 
   return (
+    <Layout>
+      <main>
     <div className={styles.membershipContainer}>
       <h1 className={styles.title}>Torne-se um Membro da Biblioteca Pro Max</h1>
       <p className={styles.subtitle}>
@@ -157,6 +160,8 @@ const MembershipPage: React.FC = () => {
         <Link className="button button--primary button--lg" to="/">Voltar </Link>
       </div>
     </div>
+    </main>
+    </Layout>
   );
 };
 
