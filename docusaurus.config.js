@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Biblioteca Pro max',
+        title: 'Biblioteca Pro Max',
         logo: {
           alt: 'My Site Logo',
           src: 'img/LOGO.png',
@@ -116,6 +116,10 @@ const config = {
               {
                 label: 'Livros',
                 to: '/vendaLivros',
+              },
+              {
+                label: 'Seja um PRO MAX',
+                to: '/membership',
               },
             ],
           },

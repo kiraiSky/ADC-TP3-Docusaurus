@@ -85,7 +85,7 @@ export default function Home() {
               Descubra um mundo de inovação e aprendizado. Torne-se membro e aproveite todas as vantagens que a Biblioteca PRO MAX tem a oferecer.
             </p>
             <br />
-            <Link className="button button--primary button--lg" to="/VendaSoftware">Consultar planos PRO AMX</Link>
+            <Link className="button button--primary button--lg" to="/membership">Consultar planos PRO MAX</Link>
             <br />
           </div>
         </section>

@@ -230,7 +230,7 @@ export default function Home() {
               aproveite todas as vantagens que a Biblioteca PRO MAX tem a
               oferecer.
             </p>
-            <Link className="button button--primary button--lg" to="/">
+            <Link className="button button--primary button--lg" to="/membership">
               Seja Membro PRO MAX
             </Link>
           </div>
